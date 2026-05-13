@@ -25,7 +25,7 @@ const Contact = () => {
     setLoading(true)
 
     try {
-      await axios.post('https://portfolio-website-1-ys1e.onrender.com/api/contact', form)
+      await axios.post('http://localhost:5000/api/contact', form)
       alert('Message Sent Successfully')
 
       setForm({
