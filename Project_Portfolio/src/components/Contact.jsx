@@ -26,7 +26,7 @@ const Contact = () => {
 
     try {
   await axios.post(
-    "https://portfolio-website-4mup.onrender.com/", form)
+    "https://portfolio-website-4mup.onrender.com/api/contact", form)
       alert('Message Sent Successfully')
 
       setForm({
